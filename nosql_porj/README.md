@@ -59,6 +59,18 @@ Swagger: http://localhost:8000/docs
 
 ---
 
+## Подробная документация по коду
+
+Если нужна не инструкция по запуску, а именно объяснение архитектуры и файлов проекта, смотри папку [`docs/`](./docs/README.md):
+
+- `docs/01-overview.md` — общий обзор проекта
+- `docs/02-infrastructure.md` — Docker, контейнеры, загрузка данных
+- `docs/03-backend.md` — FastAPI, поиск, БД
+- `docs/04-frontend.md` — React-интерфейс
+- `docs/05-file-map.md` — карта файлов проекта
+
+---
+
 ## Как работает поиск
 
 1. Приходит `GET /api/search?q=...`
